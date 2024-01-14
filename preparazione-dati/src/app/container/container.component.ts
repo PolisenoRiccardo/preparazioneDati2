@@ -8,6 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class ContainerComponent implements OnInit {
 machines: string[];
 constructor() {
-  this.machines = ['uno', 'due','tre','quattro','cinque','sei','sette','otto','nove','dieci']
+  this.machines = ['uno', 'due','tre','quattro','cinque','sei','sette','otto','nove','dieci'] 
 } ngOnInit() {}
 }
